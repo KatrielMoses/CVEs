@@ -83,7 +83,7 @@ The whole process is collaborative. I'm not here to embarrass anyone, I'm here t
 
 If you maintain or contribute to an open source project and want it audited, just reach out. It costs nothing and the worst case is you get a clean bill of health.
 
-**Email:** [katriel@rootaccess.tech](mailto:katriel@rootaccess.tech)  
+**Email:** [katriel@rootaccess.tech](mailto:katriel.moses@gmail.com)  
 **LinkedIn:** [linkedin.com/in/katriel-moses](https://linkedin.com/in/katriel-moses)
 
 I'll always respond. If the project is open source, I'll take it on.
