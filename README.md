@@ -62,7 +62,7 @@ The whole process is collaborative. I'm not here to embarrass anyone, I'm here t
 | [Fredolx/open-tv](https://github.com/Fredolx/open-tv), cross-platform IPTV app | ~3.5k | 6 (1 Critical, 1 High, 4 Medium) | CVEs pending |
 | [urwid/urwid](https://github.com/urwid/urwid), Python console UI library | ~3k | 3 (2 High, 1 Medium) | CVEs pending |
 | [xyproto/algernon](https://github.com/xyproto/algernon), pure-Go web server with Lua scripting | ~3k | 4 (1 Critical, 3 High) | ✅ Patched in v1.17.6 |
-| [Cp0204/quark-auto-save](https://github.com/Cp0204/quark-auto-save), Quark cloud drive auto-save tool | ~2.3k | 2 (2 High) | CVEs pending |
+| [Cp0204/quark-auto-save](https://github.com/Cp0204/quark-auto-save), Quark cloud drive auto-save tool | ~2.3k | 2 (1 High, 1 Medium) | CVEs assigned |
 | [JuliusBrussee/cavekit](https://github.com/JuliusBrussee/cavekit), Claude Code build orchestration plugin | growing | 5 (3 Critical, 2 High) | CVEs pending |
 
 ---
@@ -73,7 +73,9 @@ The whole process is collaborative. I'm not here to embarrass anyone, I'm here t
 |-----|---------|----------|---------|
 | [CVE-2026-43981](./algernon/CVE-2026-43981.md) | algernon | High | Race condition in handle() shared LState, DoS under concurrent load |
 | [CVE-2026-43982](./algernon/CVE-2026-43982.md) | algernon | High | Path traversal file write via savein(), arbitrary write outside web root |
-| More coming soon | | | ~18 CVEs currently in the assignment pipeline across the projects above |
+| [CVE-2026-45228](./quark-auto-save/CVE-2026-45228.md) | quark-auto-save | Medium | Stored XSS via System Configuration (push_config keys) |
+| [CVE-2026-45229](./quark-auto-save/CVE-2026-45229.md) | quark-auto-save | High | Mass assignment via POST /update leading to credential takeover |
+| More coming soon | | | ~16 CVEs currently in the assignment pipeline across the projects above |
 
 ---
 
