@@ -53,7 +53,7 @@ The whole process is collaborative. I'm not here to embarrass anyone, I'm here t
 
 | Project | Stars | Findings | Status |
 |---------|-------|----------|--------|
-| [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud), Claude Code statusline plugin | ~20k | 5 (2 High, 3 Medium) | CVEs pending |
+| [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud), Claude Code statusline plugin | ~20k | 5 (2 High, 3 Medium) | CVEs assigned |
 | [tickstep/aliyunpan](https://github.com/tickstep/aliyunpan), Alibaba Cloud Drive CLI client | ~5k | 8 (2 Critical, 4 High, 2 Medium) | CVEs pending |
 | [nsf/gocode](https://github.com/nsf/gocode), Go autocompletion daemon for Vim/Neovim/Emacs | ~5k | 5 (2 Critical, 3 High) | CVEs pending |
 | [achristmascarl/rainfrog](https://github.com/achristmascarl/rainfrog), terminal database management tool | ~5k | 5 (5 High) | CVEs pending |
@@ -75,7 +75,10 @@ The whole process is collaborative. I'm not here to embarrass anyone, I'm here t
 | [CVE-2026-43982](./algernon/CVE-2026-43982.md) | algernon | High | Path traversal file write via savein(), arbitrary write outside web root |
 | [CVE-2026-45228](./quark-auto-save/CVE-2026-45228.md) | quark-auto-save | Medium | Stored XSS via System Configuration (push_config keys) |
 | [CVE-2026-45229](./quark-auto-save/CVE-2026-45229.md) | quark-auto-save | High | Mass assignment via POST /update leading to credential takeover |
-| More coming soon | | | ~16 CVEs currently in the assignment pipeline across the projects above |
+| [CVE-2026-47090](./claude-hud/CVE-2026-47090.md) | claude-hud | Low | Terminal injection via OSC 8 hyperlinks using unsanitized cwd/branchUrl values |
+| [CVE-2026-47091](./claude-hud/CVE-2026-47091.md) | claude-hud | Medium | Path traversal via transcript_path allows arbitrary local file read |
+| [CVE-2026-47092](./claude-hud/CVE-2026-47092.md) | claude-hud | High | COMSPEC env var hijacking leads to arbitrary command execution on Windows |
+| More coming soon | | | ~13 CVEs currently in the assignment pipeline across the projects above |
 
 ---
 
